@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/group_main" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="Tra cứu (Online)" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite"
+            android:title="Từ yêu thích" />
+        <item
+            android:id="@+id/nav_translate"
+            android:icon="@drawable/ic_translate"
+            android:title="Dịch câu" />
+    </group>
+
+    <group android:id="@+id/group_settings">
+        <item android:title="Cài đặt">
+            <menu>
+                <item
+                    android:id="@+id/nav_font_size"
+                    android:icon="@drawable/ic_font_size"
+                    android:title="Cỡ chữ" />
+                <item
+                    android:id="@+id/nav_theme"
+                    android:icon="@drawable/ic_dark_mode"
+                    android:title="Chế độ Tối"
+                    app:actionViewClass="androidx.appcompat.widget.SwitchCompat" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

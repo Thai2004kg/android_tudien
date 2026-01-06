@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_light_primary">#00668B</color> <color name="my_light_onPrimary">#FFFFFF</color>
+    <color name="my_light_primaryContainer">#C3E7FF</color>
+    <color name="my_light_onPrimaryContainer">#001F2D</color>
+
+    <color name="my_dark_primary">#7BD0FF</color> <color name="my_dark_onPrimary">#00354A</color>
+    <color name="my_dark_primaryContainer">#004D6A</color>
+    <color name="my_dark_onPrimaryContainer">#C3E7FF</color>
+</resources>

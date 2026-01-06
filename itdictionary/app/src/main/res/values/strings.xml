@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IT Dictionary</string>
+    <string name="navigation_drawer_open">Mở Navigation Drawer</string>
+    <string name="navigation_drawer_close">Đóng Navigation Drawer</string>
+
+    <string name="search_hint">Nhập từ cần tra (Anh hoặc Việt)</string>
+    <string name="search_button_description">Nút tìm kiếm</string>
+    <string name="suggestions_label">Lịch sử / Gợi ý</string>
+
+    <string name="favorite_button_description">Lưu vào mục yêu thích</string>
+
+    <string name="speak_us_button">US</string>
+    <string name="speak_uk_button">UK</string>
+    <string name="searching_for">Đang tìm kiếm %1$s...</string>
+    <string name="word_not_found">Không tìm thấy từ: %1$s</string>
+    <string name="network_error">Lỗi kết nối mạng. Vui lòng thử lại.</string>
+
+</resources>

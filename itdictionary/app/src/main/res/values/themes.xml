@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Itdictionary" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorOnPrimary">@color/my_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/my_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/my_light_onPrimaryContainer</item>
+    </style>
+
+    <style name="Theme.Itdictionary" parent="Base.Theme.Itdictionary" />
+</resources>
